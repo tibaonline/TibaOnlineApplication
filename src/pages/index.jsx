@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../public/logo.png";
+Fix logo path and remove broken import
 
 export default function HomePage() {
   return (
@@ -7,7 +7,7 @@ export default function HomePage() {
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <img src={logo} alt="TibaOnline Logo" className="h-10 w-auto" />
+<img src="/logo.png" alt="TibaOnline Logo" className="h-10 w-auto" />
             <h1 className="text-2xl font-bold text-teal-600">TibaOnline</h1>
           </div>
           <nav className="space-x-6 text-sm">

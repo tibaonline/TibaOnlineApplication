@@ -1,4 +1,3 @@
-import React from "react";
 Fix logo path and remove broken import
 
 export default function HomePage() {

@@ -7,14 +7,14 @@ export default function HomePage() {
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <img src="/logo.png" alt="TibaOnline Logo" className="h-10 w-auto" />
-            <h1 className="text-2xl font-bold text-teal-600">TibaOnline</h1>
+            <img src="/logo.png" alt="TibaOnline Logo" className="h-10" />
+            <span className="text-xl font-bold text-teal-600">TibaOnline</span>
           </div>
-          <nav className="space-x-6 text-sm">
-            <a href="#services" className="hover:text-teal-500">Services</a>
-            <a href="#how" className="hover:text-teal-500">How It Works</a>
-            <a href="#about" className="hover:text-teal-500">About</a>
-            <a href="#contact" className="hover:text-teal-500">Contact</a>
+          <nav className="space-x-4">
+            <a href="#services" className="text-gray-600 hover:text-teal-600">Services</a>
+            <a href="#how" className="text-gray-600 hover:text-teal-600">How It Works</a>
+            <a href="#about" className="text-gray-600 hover:text-teal-600">About</a>
+            <a href="#contact" className="text-gray-600 hover:text-teal-600">Contact</a>
           </nav>
         </div>
       </header>
